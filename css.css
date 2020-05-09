@@ -1,0 +1,31 @@
+.calculator {
+    width: 200px;
+    height: 300px;
+    border: black 1px solid;
+    background-color: rgb(189, 189, 189);
+}
+
+input {
+    width: 176px;
+    height: 50px;
+    margin: 10px 10px 10px 10px;
+    font-size: larger;
+}
+
+.calcBody{
+    margin: 10px;
+    border: solid black 1px;
+    
+}
+button {
+    width: 41.5px;
+    height: 40px;
+    background-color: rgb(176, 234, 235);
+    font-size: large;
+}
+button:hover{
+    background-color: rgb(47, 124, 124);
+}
+.zero, .equal {
+    width: 87px;
+}
