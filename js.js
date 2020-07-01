@@ -18,3 +18,9 @@ function equal(){
         document.getElementById('input').value = eval(number);   
     }
 }
+function mihatban(){
+    console.log("aaa")
+}
+function mi(){
+    console.log("jj")
+}
