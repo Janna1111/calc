@@ -24,3 +24,6 @@ function mihatban(){
 function mi(){
     console.log("jj")
 }
+function a(){
+    alert('Barev')
+}
