@@ -1,29 +1,33 @@
-function operand(num){
-    document.getElementById('input').value = 
-    document.getElementById('input').value+num;
+function operand(num) {
+	document.getElementById("input").value =
+		document.getElementById("input").value + num;
 }
 
-function clean(){
-    document.getElementById('input').value = '';
+function clean() {
+	document.getElementById("input").value = "";
 }
 
-function back(){
-    let sub = document.getElementById('input').value;
-    document.getElementById('input').value = sub.substring(0, (sub.length-1))
+function back() {
+	let sub = document.getElementById("input").value;
+	document.getElementById("input").value = sub.substring(0, sub.length - 1);
 }
 
-function equal(){
-    let number = document.getElementById('input').value;
-    if(number){
-        document.getElementById('input').value = eval(number);   
-    }
+function equal() {
+	let number = document.getElementById("input").value;
+	if (number) {
+		document.getElementById("input").value = eval(number);
+	}
 }
-function mihatban(){
-    console.log("aaa")
+function mihatban() {
+	console.log("aaa");
 }
-function mi(){
-    console.log("jj")
+function mi() {
+	console.log("jj");
 }
-function a(){
-    alert('Barev')
+function a() {
+	alert("Barev");
+}
+
+function s() {
+	alert(123);
 }
